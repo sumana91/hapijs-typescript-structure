@@ -1,5 +1,4 @@
 ## hapijs-typescript-structure
-
 ![image](https://user-images.githubusercontent.com/21328393/67849796-2ab33b00-fb2d-11e9-9f90-fa5142f75998.png)
 ![image](https://user-images.githubusercontent.com/21328393/67850036-9a292a80-fb2d-11e9-955d-afee79084dc8.png)
 
@@ -17,11 +16,11 @@ This is a sample project on Hapijs framework, which uses typescript and MySQL da
 
 ## How to use?
 
-1. Clone this project.
-2. Run `yarn install`
-3. Run `npm run nodemon:start`
-4. Visit [http://localhost:8080/api/questions](http://localhost:8080/api/questions) to test the REST API.
-5. Visit [http://localhost:8080/api/s3](http://localhost:8080/api/s3) to test the REST API.
+- Clone this project.
+- Run `yarn install`
+- Run `npm run nodemon:start`
+- Visit [http://localhost:8080/api/questions](http://localhost:8080/api/questions) to test the REST API.
+- Visit [http://localhost:8080/api/s3](http://localhost:8080/api/s3) to test the REST API.
 
 ## Set of Endpoints implemented
 #### CURD on Question repository
