@@ -11,8 +11,7 @@
 2. Run `yarn install`
 3. Run `npm run nodemon:start`
 4. Visit [http://localhost:8080/api/questions](http://localhost:8080/api/questions) to test the REST API.
-5. Visit [http://localhost:8080/api/users](http://localhost:8080/api/users) to test the REST API.
-6. Visit [http://localhost:8080/api/s3](http://localhost:8080/api/s3) to test the REST API.
+5. Visit [http://localhost:8080/api/s3](http://localhost:8080/api/s3) to test the REST API.
 
 ## AWS and DB Confiugurations
 
