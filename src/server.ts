@@ -47,9 +47,9 @@ export default class Server {
 			logger.info(
 				`Server - Visit http://${process.env.HOST}:${process.env.PORT}/api/questions for REST API`
 			);
-			logger.info(
-				`Server - Visit http://${process.env.HOST}:${process.env.PORT}/api/users for REST API`
-			);
+			// logger.info(
+			// 	`Server - Visit http://${process.env.HOST}:${process.env.PORT}/api/users for REST API`
+			// );
 			return Server._instance;
 		} catch (error) {
 			logger.info(`Server - There was something wrong: ${error}`);
