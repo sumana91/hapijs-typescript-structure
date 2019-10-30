@@ -24,9 +24,9 @@ export default {
     },
   },
   awsConfig: {
-    accessKeyId: "<>",
-    secretAccessKey: "<>",
-    region: "<>"
+    accessKeyId: "<accessKeyId>",
+    secretAccessKey: "<secretAccessKey>",
+    region: "<region>"
   },
   dbConfig: {
     type: "mysql",
