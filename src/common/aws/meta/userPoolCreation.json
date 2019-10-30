@@ -1,0 +1,77 @@
+{
+  "AdminCreateUserConfig": {
+    "AllowAdminCreateUserOnly": false,
+    "InviteMessageTemplate": {
+      "EmailMessage": "",
+      "EmailSubject": ""
+    }
+  },
+  "Schema": [
+    {
+      "Name": "first_name",
+      "AttributeDataType": "String",
+      "DeveloperOnlyAttribute": false,
+      "Mutable": true,
+      "Required": false,
+      "StringAttributeConstraints": {
+        "MinLength": "1",
+        "MaxLength": "100"
+      }
+    },
+    {
+      "Name": "middle_name",
+      "AttributeDataType": "String",
+      "DeveloperOnlyAttribute": false,
+      "Mutable": true,
+      "Required": false,
+      "StringAttributeConstraints": {
+        "MinLength": "0",
+        "MaxLength": "100"
+      }
+    },
+    {
+      "Name": "last_name",
+      "AttributeDataType": "String",
+      "DeveloperOnlyAttribute": false,
+      "Mutable": true,
+      "Required": false,
+      "StringAttributeConstraints": {
+        "MinLength": "0",
+        "MaxLength": "100"
+      }
+    },
+    {
+      "Name": "email",
+      "AttributeDataType": "String",
+      "DeveloperOnlyAttribute": false,
+      "Mutable": true,
+      "Required": true,
+      "StringAttributeConstraints": {
+        "MinLength": "0",
+        "MaxLength": "100"
+      }
+    },
+    {
+      "Name": "role",
+      "AttributeDataType": "String",
+      "DeveloperOnlyAttribute": false,
+      "Mutable": true,
+      "Required": false,
+      "StringAttributeConstraints": {
+        "MinLength": "0",
+        "MaxLength": "100"
+      }
+    }
+  ],
+  "Policies": {
+    "PasswordPolicy": {
+      "MinimumLength": 6,
+      "RequireUppercase": true,
+      "RequireLowercase": true,
+      "RequireNumbers": true,
+      "RequireSymbols": true
+    }
+  },
+  "UsernameAttributes": ["email"],
+  "AutoVerifiedAttributes": ["email"]
+}

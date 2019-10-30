@@ -1,0 +1,73 @@
+{
+  "name": "typescript-hapi-structure",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=10.0"
+  },
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "node dist/src/index.js",
+    "nodemon:build": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
+    "nodemon:start": "npm run nodemon:build",
+    "postinstall": "npm run build-ts"
+  },
+  "nyc": {
+    "include": [
+      "src/**/*.ts"
+    ],
+    "extension": [
+      ".ts"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{js,ts,tsx}": [
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@hapi/boom": "^7.4.2",
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/inert": "^5.2.1",
+    "@hapi/joi": "^15.1.0",
+    "@hapi/vision": "^5.5.2",
+    "amazon-cognito-identity-js": "^3.1.2",
+    "aws-sdk": "^2.553.0",
+    "dotenv": "^8.0.0",
+    "fs": "0.0.1-security",
+    "hapi-swagger": "^10.0.2",
+    "hapijs-status-monitor": "github:ziyasal/hapijs-status-monitor",
+    "inert": "^5.1.3",
+    "mysql": "^2.17.1",
+    "typeorm": "^0.2.19",
+    "vision": "^5.4.4",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/code": "^4.0.5",
+    "@types/dotenv": "^6.1.1",
+    "@types/hapi": "^18.0.2",
+    "@types/hapi__boom": "^7.4.0",
+    "@types/hapi__hapi": "^18.2.5",
+    "@types/hapi__inert": "^5.2.0",
+    "@types/hapi__joi": "^15.0.3",
+    "@types/hapi__vision": "^5.5.0",
+    "@types/nedb": "^1.8.8",
+    "@types/node": "^12.6.8",
+    "@types/tape": "^4.2.33",
+    "nodemon": "^1.11.0",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.4.3",
+    "typescript": "^3.2.2"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "hapi",
+    "typescript",
+    "swagger"
+  ]
+}

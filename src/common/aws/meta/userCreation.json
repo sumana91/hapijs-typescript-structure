@@ -1,0 +1,25 @@
+{
+  "DesiredDeliveryMediums": ["EMAIL"],
+  "UserAttributes": [
+    {
+      "Name": "custom:first_name",
+      "Value": ""
+    },
+    {
+      "Name": "middle_name",
+      "Value": ""
+    },
+    {
+      "Name": "custom:last_name",
+      "Value": ""
+    },
+    {
+      "Name": "email",
+      "Value": ""
+    },
+    {
+      "Name": "custom:role",
+      "Value": ""
+    }
+  ]
+}
