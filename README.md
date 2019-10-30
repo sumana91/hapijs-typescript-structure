@@ -1,6 +1,7 @@
 ## hapijs-typescript-structure
 
-![image](https://user-images.githubusercontent.com/21328393/67849194-29354300-fb2c-11e9-9a33-5fe3fb820cee.png
+![image](https://user-images.githubusercontent.com/21328393/67849796-2ab33b00-fb2d-11e9-9f90-fa5142f75998.png)
+![image](https://user-images.githubusercontent.com/21328393/67850036-9a292a80-fb2d-11e9-955d-afee79084dc8.png)
 
 This is a sample project on Hapijs framework, which uses typescript and MySQL database. Sample endpoints are created in this structure, which supports S3 file upload and CRUD operations on 'Question' repository in MySQL db.
 'Question' is a sample repository created to test CRUD operations.
