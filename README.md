@@ -7,7 +7,7 @@
 
 ## How to use?
 
-1. Download this project.
+1. Clone this project.
 2. Run `yarn install`
 3. Run `npm run nodemon:start`
 4. Visit [http://localhost:8080/api/questions](http://localhost:8080/api/questions) to test the REST API.
