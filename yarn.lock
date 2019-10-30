@@ -1970,6 +1970,11 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
+items@2.x.x:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/items/-/items-2.1.2.tgz#0849354595805d586dac98e7e6e85556ea838558"
+  integrity sha512-kezcEqgB97BGeZZYtX/MA8AG410ptURstvnz5RAgyFZ8wQFPMxHY8GpTq+/ZHKT3frSlIthUq7EvLt9xn3TvXg==
+
 jmespath@0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
@@ -3386,6 +3391,16 @@ validator@^10.0.0:
   version "10.10.0"
   resolved "https://registry.yarnpkg.com/validator/-/validator-10.10.0.tgz#a69ac298149f063a44361cb52182edb52dab59a4"
   integrity sha512-DyZyLJlMXM3CGdVaVHE/EDzCagMRoPI3mmGdxxNQbqkGqh56+M3d1i0ZAWd69En8U21DHbPTn12aOdhO+hfm5w==
+
+vision@^5.4.4:
+  version "5.4.4"
+  resolved "https://registry.yarnpkg.com/vision/-/vision-5.4.4.tgz#981b2d811a6061cc14cf2d5d05ad3bbc3ee59572"
+  integrity sha512-jFeH7pU/ODYmTOpY5jutMKU/fDr+P621WYEnWgqwDikxutBWJ+koxlgGnkZQoKY6JlYdY4Awo+rPN3DNdTeDKg==
+  dependencies:
+    boom "7.x.x"
+    hoek "6.x.x"
+    items "2.x.x"
+    joi "14.x.x"
 
 which-module@^2.0.0:
   version "2.0.0"
