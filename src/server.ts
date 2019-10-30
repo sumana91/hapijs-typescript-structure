@@ -78,8 +78,3 @@ export default class Server {
 		return await Server._instance.inject(options);
 	}
 }
-
-
-
-
-
